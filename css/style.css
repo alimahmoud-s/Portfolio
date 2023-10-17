@@ -1,0 +1,58 @@
+.bgimage {
+  background-image: url(../img/pexels-olia-danilevich-4974915.jpg);
+  background-size: 100% 100%;
+}
+body {
+  background-color: #bcbcbc;
+}
+li {
+  list-style: none;
+}
+.navbarScroll.navbarDark {
+    background-color: rgba(0, 0, 0, 0.44);
+}
+.custom-div {
+  background-image: url(../img/pexels-pixabay-220453.jpg);
+  background-size: 100% 100%;
+}
+.servicesText {
+  width: 100%;
+}
+.servicesIcon {
+  font-size: 64px;
+  text-align: center;
+  width: 100%;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+.googlemaps-html {
+  #embedmap-canvas img {
+    max-width: none !important;
+    background: none !important;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover {
+  color: #008000;
+}
+.fab {
+  color: #000000;
+}
+/* footer styling */
+#footer {
+  background-color: #808080;
+  text-align: center;
+}
